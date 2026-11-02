@@ -1,0 +1,6 @@
+export async function onRequest(context) {
+  const target = new URL(context.request.url).searchParams.get("target");
+  if (!target) return Response.json({ error: "Target URL missing" }, { status: 400 });
+  const upstream = await fetch(`https://tech-api.kluzar.com/subdomains?target=${encodeURIComponent(target)}`, { signal: AbortSignal.timeout(15000) });
+  return new Response(await upstream.text(), { status: upstream.status, headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" } });
+}
