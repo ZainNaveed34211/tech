@@ -1,7 +1,7 @@
 export async function onRequestPost(context) {
   const upstream = await fetch("https://tech-api.kluzar.com/request", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: { "Content-Type": "application/json", "X-Kluzar-Api-Key": context.env.API_SHARED_SECRET },
     body: await context.request.text(),
     signal: AbortSignal.timeout(9000),
   });
