@@ -1,0 +1,74 @@
+# Kluzar Tech Tools
+
+> Free browser-based security, recon, SEO, developer, DevOps, media and design tools from Kluzar. No account required. Most tools process data locally in the browser; network lookup tools (DNS, headers, CORS, SEO and similar checks) use a small API to fetch public information about the target you enter.
+
+Site: https://tech.kluzar.com/ is a collection of 40+ single-purpose tools. Each tool has its own page with a short explanation of what it does and how to use it.
+
+## Security
+
+- [JWT Studio](https://tech.kluzar.com/jwt-decoder/): Decode JSON Web Tokens, verify HMAC signatures and generate tokens locally with the Web Crypto API.
+- [Hash Generator](https://tech.kluzar.com/hash-generator/): Generate SHA-family hashes locally with Web Crypto.
+- [File Inspector](https://tech.kluzar.com/file-inspector/): Inspect magic bytes, entropy, MIME type and metadata of a file locally.
+- [URL Scanner](https://tech.kluzar.com/url-scanner/): Inspect the response status and security-related headers of a URL.
+
+## Recon and Bug Bounty
+
+- [DNS Lookup](https://tech.kluzar.com/dns-lookup/): Look up public A, AAAA, CNAME, MX, TXT, NS, CAA and SOA records.
+- [Subdomain Finder](https://tech.kluzar.com/subdomain-finder/): Discover subdomain hostnames from public certificate records.
+- [JS Scanner](https://tech.kluzar.com/js-scanner/): Review JavaScript for domains, endpoints, source maps, syntax and token patterns.
+- [Old URLs Extractor](https://tech.kluzar.com/oldurls/): Extract and deduplicate historical URLs and API paths from large text.
+- [Recon Parser](https://tech.kluzar.com/recon-parser/): Clean terminal recon output into a unique hostname CSV.
+- [Bug Bounty Report Builder](https://tech.kluzar.com/security-report/): Draft structured findings with impact, reproduction steps and remediation.
+
+## DevOps and Network
+
+- [CORS Tester](https://tech.kluzar.com/cors-checker/): Inspect cross-origin (CORS) policy and response headers from a bare domain or full URL.
+- [HTTP Workbench](https://tech.kluzar.com/http-workbench/): Send webhook-style HTTP requests and inspect status, headers, timing and body.
+- [Webhook Capture](https://tech.kluzar.com/webhook-capture/): Generate a temporary endpoint and inspect incoming webhook requests.
+- [System Health Status](https://tech.kluzar.com/system-health/): Check public network availability and service health.
+- [Cron Builder](https://tech.kluzar.com/cron-builder/): Create cron schedules and preview upcoming executions.
+- [CHMOD Calculator](https://tech.kluzar.com/chmod-calculator/): Calculate Unix file permissions and symbolic modes visually.
+
+## Developer
+
+- [JSON Studio](https://tech.kluzar.com/json-formatter/): Format, validate and minify large JSON payloads without freezing the browser.
+- [JavaScript Studio](https://tech.kluzar.com/js-formatter/): Beautify or minify pasted JavaScript locally.
+- [Regex Tester](https://tech.kluzar.com/regex-tester/): Test JavaScript regular expressions and inspect matches visually.
+- [cURL Converter](https://tech.kluzar.com/curl-converter/): Convert cURL commands into JavaScript, Python, Node.js or PHP.
+- [Code Diff Checker](https://tech.kluzar.com/code-diff/): Compare source code or configuration text line by line.
+- [UUID Generator](https://tech.kluzar.com/uuid-generator/): Generate random UUID v4 identifiers locally with Web Crypto.
+- [Unix Timestamp](https://tech.kluzar.com/unix-time/): Convert epoch seconds and milliseconds to readable dates.
+- [JSON to CSV Converter](https://tech.kluzar.com/json-csv/): Convert JSON arrays to CSV and back without uploading files.
+- [Markdown Preview](https://tech.kluzar.com/markdown-preview/): Write Markdown and preview sanitized HTML output live.
+- [XML Formatter](https://tech.kluzar.com/xml-formatter/): Format, minify and validate XML, feeds and sitemap files.
+
+## SEO and Content
+
+- [SEO Analyzer](https://tech.kluzar.com/seo-analyzer/): Check titles, descriptions, canonical tags, Open Graph tags and headings of a page.
+- [Sitemap Builder](https://tech.kluzar.com/sitemap-builder/): Generate standards-based XML sitemap entries from a list of URLs.
+- [robots.txt Builder](https://tech.kluzar.com/robots-builder/): Create crawler rules and sitemap directives for search engines.
+- [Text Analyzer](https://tech.kluzar.com/text-analyzer/): Measure word count, reading time, keyword density and text structure.
+- [Lorem Generator](https://tech.kluzar.com/lorem-generator/): Generate placeholder paragraphs or sentences for layouts and wireframes.
+
+## Design and Media
+
+- [Logo Studio](https://tech.kluzar.com/logo-generator/): Design downloadable transparent wordmark logos and brand marks.
+- [CSS Style Generator](https://tech.kluzar.com/css-generator/): Generate glass, soft-shadow and modern panel CSS.
+- [Color Studio](https://tech.kluzar.com/color-converter/): Convert between HEX, RGB and HSL and copy generated palette shades.
+- [QR Generator](https://tech.kluzar.com/qr-generator/): Create downloadable QR codes from URLs, text or Wi-Fi details.
+- [Image Converter](https://tech.kluzar.com/image-converter/): Convert JPG, PNG and WebP images entirely in the browser.
+
+## Utilities
+
+- [Password Generator](https://tech.kluzar.com/password-generator/): Create cryptographically random passwords without server access.
+- [URL Tool](https://tech.kluzar.com/url-tool/): Encode, decode and inspect domains and query parameters.
+- [Text Transformer](https://tech.kluzar.com/text-transformer/): Convert case, slug, camelCase, title case and sentence case.
+- [PDF Merger](https://tech.kluzar.com/pdf-merger/): Merge PDF documents locally without uploading files.
+- [Base64 Tool](https://tech.kluzar.com/base64-tool/): Encode or decode UTF-8 text with Base64 locally.
+
+## Optional
+
+- [Privacy Policy](https://tech.kluzar.com/privacy): How the site handles data.
+- [Terms of Service](https://tech.kluzar.com/terms): Terms for using the tools.
+- [Support Center](https://support.kluzar.com): Help and support.
+- [Contact](https://contact.kluzar.com): Contact the Kluzar team.
